@@ -12,3 +12,7 @@ https://www.figma.com/file/jF5fFFzgGOxQeB4CmKWTiE/Chat_external_link?node-id=0%3
 
 - `npm run dev` — запуск сервера для разработки;
 - `npm run start` — запуск локального сервера localhost:3000.
+
+## Деплой проекта на Netlify: 
+
+https://funikchat.netlify.app/
