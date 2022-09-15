@@ -1,0 +1,25 @@
+.error {
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__value {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  &__description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 69px;
+  }
+  &__link {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    color: #3369f3;
+  }
+}

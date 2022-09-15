@@ -1,0 +1,17 @@
+{{!< chat}}
+
+
+
+
+<div class="chat__form">
+    <h2 class="chat__form__title">Регистрация</h2>
+    <form class="form chat__form__registration">
+        {{#each inputReg}}
+             {{> input_block/input_block title=this.title type=this.type}}
+        {{/each}}
+    </form>
+        {{#each buttonsReg}}
+          {{> button/button title=this.title link=this.link className=this.className}}
+        {{/each}}
+ 
+</div>

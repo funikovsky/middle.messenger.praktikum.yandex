@@ -1,0 +1,10 @@
+[
+   
+    {   "title": "Авторизоваться", "link": "./index.hbs", "className": "button" },
+    {   "title": "Нет аккаунта?",  "link": "./registration.hbs", "className": "button button-white" },
+    {   "title": "Настройки",  "link": "./settings.hbs", "className": "button button-white" },
+    {   "title": "Страница 404",  "link": "./error404.hbs", "className": "button button-white" },
+    {   "title": "Страница 500",  "link": "./error500.hbs", "className": "button button-white" }
+
+]
+    

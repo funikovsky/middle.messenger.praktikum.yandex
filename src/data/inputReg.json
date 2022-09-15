@@ -1,0 +1,9 @@
+[
+    {"title": "Почта", "type": "text"},
+    {"title": "Логин", "type": "text"},
+    {"title": "Имя", "type": "text"},
+    {"title": "Фамилия", "type": "text"},
+    {"title": "Телефон", "type": "text"},
+    {"title": "Пароль", "type": "password"},
+    {"title": "Пароль (ещё раз)", "type": "password"}
+]

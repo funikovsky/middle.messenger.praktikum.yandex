@@ -1,0 +1,5 @@
+[
+    {   "title": "Зарегистрироваться", "link": "#", "className": "button" },
+    {   "title": "Войти",  "link": "./index.hbs", "className": "button button-white" }
+]
+    

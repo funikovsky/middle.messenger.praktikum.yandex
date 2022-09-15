@@ -1,0 +1,5 @@
+[
+    {   "title": "Изменить данные", "link": "#", "className": "button button-white settings__button" },
+    {   "title": "Изменить пароль",  "link": "./index.hbs", "className": "button button-white settings__button" },
+    {   "title": "Выйти",  "link": "./index.hbs", "className": "button button-red settings__button" }
+]
