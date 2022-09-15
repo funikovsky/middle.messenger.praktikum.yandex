@@ -1,0 +1,20 @@
+
+
+{{!< chat}}
+
+<div class="chat__form">
+    <h2 class="chat__form__title">Вход</h2>
+    <form class="form chat__form__authorization">
+        {{#each inputAuth}}
+             {{> input_block/input_block title=this.title type=this.type}}
+        {{/each}}
+    </form>
+        {{#each buttons}}
+          {{> button/button title=this.title link=this.link className=this.className}}
+        {{/each}}
+  {{!-Временно вынес кноки из формы для перехода между страницами, в дальнейшем верну обратно для submit -  --}}
+</div>
+
+
+
+

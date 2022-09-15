@@ -1,0 +1,27 @@
+{{!< chat}}
+
+<div class="settings">
+    <div class="settings__photo">
+        <div class="settings__photo-block">
+            <img src="../assets/noPhoto.png" alt="" class="settings__photo-img">
+        </div>
+        <h4 class="settings__title">Алексей</h4>
+        
+    </div>
+    <div class="settings__block">
+        <ul class="settings__list">
+            {{#each dataUser}}
+                {{> settings-item/settings-item title=this.title value=this.value}}
+            {{/each}}
+        </ul>
+    </div>
+    <div class="settings__buttons">
+        <ul class="settings__buttons_list">
+             {{#each buttonsSet}}
+                <li class="settings__buttons_list-item">
+                    {{> button/button title=this.title link=this.link className=this.className}}
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+</div>

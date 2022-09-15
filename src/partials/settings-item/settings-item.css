@@ -1,0 +1,42 @@
+.settings {
+  &__photo {
+    text-align: center;
+  }
+  &__block {
+    margin-top: 60px;
+  }
+  &__list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+  }
+  &__item {
+    text-align: center;
+    color: #999999;
+    &-title {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 13px;
+    }
+  }
+  &__button {
+    width: fit-content;
+    &:hover {
+      background-color: white;
+      color: #042b8e;
+    }
+  }
+  &__buttons {
+    margin-top: 60px;
+
+    &_list-item {
+      border-bottom: 1px solid #eaeaea;
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+}
